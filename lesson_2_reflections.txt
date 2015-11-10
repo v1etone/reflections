@@ -1,0 +1,5 @@
+Reflections for Lesson 2
+
+What happens when you initialize a repository? Why do you need to do it?
+Initializing a repository will create a .git "folder", you need to do it in order to create commits or a place where you can
+access the commits.
