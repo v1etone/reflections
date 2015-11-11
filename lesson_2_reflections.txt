@@ -5,20 +5,21 @@ Initializing a repository will create a .git "folder", you need to do it in orde
 access the commits.
 
 How is the staging area different from the working directory and the repository? What value do you think it offers?
-It is a stage before the repository, you can choose to which files be included in a single commit
+It is a stage before the repository, you can choose to which files be included in a single commit, doing so you can structure your commits better.
 
 How can you use the staging area to make sure you have one commit per logical change?
 Using the staging area, we can compare between two files in both staging area and working space and commit and staging area
 
 What are some situations when branches would be helpful in keeping your history organized? How would branches help?
-Branches are useful if you want to add new features but still want to have a running version
+Branches are useful if you want to add new features but still want to have a running version, or if another person wants to add some code to the master branch
+and you like to work on another feature.
 
 How do the diagrams help you visualize the branch structure?
-By having diagrams you don't lose the overview of the branch structure. Also you can see at which commit you started a new branch
+By having diagrams you don't lose the overview of the branch structure. Also you can see at which commits you started a new branch or merge a branch.
 
 What is the result of merging two branches together? Why do we represent it in the diagram the way we do?
 Merging to branches together = The merged branch has the name of the checked out branch or if you use
-git checkout branch1 branch2 the second branch.
+git checkout branch1 branch2 the second branch. It is represented as a new commit.
 
 What are the pros and cons of Git’s automatic merging vs. always doing merges manually?
 Git warns you if you have differences and you can manually look at the differences and see if you understand those changes.
