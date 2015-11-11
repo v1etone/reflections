@@ -12,3 +12,13 @@ Using the staging area, we can compare between two files in both staging area an
 
 What are some situations when branches would be helpful in keeping your history organized? How would branches help?
 Branches are useful if you want to add new features but still want to have a running version
+
+How do the diagrams help you visualize the branch structure?
+By having diagrams you don't lose the overview of the branch structure. Also you can see at which commit you started a new branch
+
+What is the result of merging two branches together? Why do we represent it in the diagram the way we do?
+Merging to branches together = The merged branch has the name of the checked out branch or if you use
+git checkout branch1 branch2 the second branch.
+
+What are the pros and cons of Git’s automatic merging vs. always doing merges manually?
+Git warns you if you have differences and you can manually look at the differences and see if you understand those changes.
