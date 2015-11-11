@@ -36,3 +36,13 @@ Usage of version control gives you the possibility to see the changes you've mad
 
 Now that you have your workspace set up, what do you want to try using Git for?
 I want to program apps and that is why I want to learn how to use GIT.
+
+Commands:
+
+q |    exit git log!
+git log  |    List the commits and show which files have changed
+git log --stat  |    Show addition information about the commits
+git diff id1 id2  |    Compare two commits
+git clone  |    Create a local copy/clone from the repository
+git config --global color.ui auto |    get colored diff output
+git checkout  |    Shows a previous version of the file. This is not a checkout to edit like in SVN or TFS!
