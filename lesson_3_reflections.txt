@@ -4,3 +4,8 @@ If i want to work with other people and share the work.
 Why might you want to always pull changes manually rather than having Git automatically stay up-to-date with your remote repository?
 If many people contribute to a file, things could become quite messy. Having an overview and knowing when to pull which kind of changes is a way to 
 keep structure in your file.
+
+Describe the differences between forks, clones, and branches. When would you use one instead of another?
+Forks are a feature of GitHub, you can use it to clone another repository on github, without saving it to your local repository. 
+Cloning is like downloading a from a remote repository to a local one. 
+Branches are the inner structure of commits. 
