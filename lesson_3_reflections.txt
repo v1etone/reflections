@@ -13,7 +13,10 @@ Branches are the inner structure of commits.
 What is the benefit of having a copy of the last known state of the remote stored locally?
 Being online all the time isn't guaranteed, so after being offline for a while you can compare those with the online repository.
 
-
+How would you collaborate without using Git or GitHub? What would be easier, and what would be harder?
+Without using Git or GitHub, I would try to communicate via email and just talk to the people i collaborate with.
+It would be easier to explain things, I changed since comments made in commits could be missinterpreted if expressed poorly. 
+It would be harder to keep track of the things which were changed between each version.
 
 git remote  |    Show all remote locations for the repository
 git remote add origin url |     Add a new remote location for the repository. Origin is the default name to use when you create only one remote location. Url should be the https url to the github repository.
